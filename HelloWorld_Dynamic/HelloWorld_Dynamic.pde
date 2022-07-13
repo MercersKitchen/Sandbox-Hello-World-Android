@@ -8,12 +8,19 @@ String is = "is";
 String areYouSerious = "amazing";
 char exclamation = '!';
 //
-//println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Character escapes: letter is actually code b/c backSlash, t=tab, n=newLine
-//138: period=46(ascii decimal number), thus 46*3=138 (or period+period+period)
+void setup()
+{
+  fullScreen();
+  //size();
+  //
+}//End setup
 //
-void setup() {}//End setup
-//
-void draw(){}//End draw
+void draw()
+{
+  println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Character escapes: letter is actually code b/c backSlash, t=tab, n=newLine
+  //138: period=46(ascii decimal number), thus 46*3=138 (or period+period+period)
+  //
+}//End draw
 //
 void keyPressed() {}//End keyPressed
 //
