@@ -7,6 +7,7 @@ String teacher = "Mercer";
 String is = "is";
 String areYouSerious = "amazing";
 char exclamation = '!';
+int appWidth, appHeight;
 //
 void setup()
 {
