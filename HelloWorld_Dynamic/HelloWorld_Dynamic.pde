@@ -12,8 +12,13 @@ void setup()
 {
   //Canvas Setup
   //fullScreen();
-  size(300, 200);
+  size(2000, 1500);
   println(width, height, displayWidth, displayHeight);
+  //CANVAS will only display when it is smaller than the DISPLAY
+  if ( width >= displayWidth) exit(); //CANVAS is Broken
+  if ( height >= displayHeight) exit(); //CANVAS is Broken
+  if () ;
+  //println special
   //
 }//End setup
 //
