@@ -13,6 +13,8 @@ void setup()
   //Canvas Setup
   //fullScreen();
   size(300, 200); //Display Geometry: Landscape, Portrait, Square
+  appWidth = width;
+  appHeight = height;
   println(width, height, displayWidth, displayHeight);
   //CANVAS will only display when it is smaller than the DISPLAY
   if ( width >= displayWidth ) exit();
