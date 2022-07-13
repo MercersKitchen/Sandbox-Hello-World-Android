@@ -14,8 +14,9 @@ void setup()
   //Canvas Setup
   //fullScreen();
   size(300, 200); //Display Geometry: Landscape, Portrait, Square
-  appWidth = width;
-  appHeight = height;
+  //Able to swap key variables to test rest of app
+  appWidth = width; //displayWidth
+  appHeight = height; //displayHeight
   println(width, height, displayWidth, displayHeight);
   //CANVAS will only display when it is smaller than the DISPLAY
   if ( width >= displayWidth ) exit();
@@ -23,6 +24,7 @@ void setup()
   if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display"); //ERROR Catch
   //
   //Display Geoemtry
+  String ls="Landsacpe or Square", p="portrait or Square", DO="Display Orientation", instruct="Bru, turn your phun";
   //
 }//End setup
 //
