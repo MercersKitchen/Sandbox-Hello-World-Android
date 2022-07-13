@@ -10,6 +10,7 @@ char exclamation = '!';
 //
 void setup()
 {
+  //Convas Setup
   fullScreen();
   //size();
   //
@@ -17,7 +18,7 @@ void setup()
 //
 void draw()
 {
-  println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Character escapes: letter is actually code b/c backSlash, t=tab, n=newLine
+  //println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Character escapes: letter is actually code b/c backSlash, t=tab, n=newLine
   //138: period=46(ascii decimal number), thus 46*3=138 (or period+period+period)
   //
 }//End draw
