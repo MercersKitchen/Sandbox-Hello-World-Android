@@ -16,3 +16,4 @@ char exclamation = '!';
 println(mr, period, teacher, is, areYouSerious, exclamation); //comma adds spaces
 println(mr+period+space+teacher+space+is+space+areYouSerious+exclamation); //plus: no space
 //
+println(mr+period, teacher, is, areYouSerious+exclamation); //mixing commas and plus signs
