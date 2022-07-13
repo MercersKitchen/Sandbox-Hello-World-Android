@@ -15,10 +15,9 @@ void setup()
   size(2000, 1500);
   println(width, height, displayWidth, displayHeight);
   //CANVAS will only display when it is smaller than the DISPLAY
-  if ( width >= displayWidth) exit(); //CANVAS is Broken
-  if ( height >= displayHeight) exit(); //CANVAS is Broken
-  if () ;
-  //println special
+  if ( width >= displayWidth ) exit();
+  if ( height >= displayHeight ) exit();
+  if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display"); //ERROR Catch
   //
 }//End setup
 //
