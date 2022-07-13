@@ -17,6 +17,6 @@ void draw(){}//End draw
 //
 void keyPressed() {}//End keyPressed
 //
-void mousePressed() {}//mousePressed
+void mousePressed() {}//End mousePressed
 //
 //End MAIN Program
