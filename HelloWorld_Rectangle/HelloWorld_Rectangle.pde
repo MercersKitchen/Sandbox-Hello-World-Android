@@ -7,11 +7,11 @@ void setup()
   //
   //Population: Variables equal numbers
   float xCenter = width/2;
-  float yCenter = height/2
+  float yCenter = height/2;
   xRectStart = xCenter - width*1/4;
   yRectStart = yCenter - height*1/4;
-  rectWidth = ;
-  rectHeight = ;
+  rectWidth = width*1/2;
+  rectHeight = height*1/2;
   //
 }//End setup
 //
