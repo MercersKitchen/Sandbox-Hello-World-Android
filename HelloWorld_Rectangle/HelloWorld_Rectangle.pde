@@ -6,7 +6,9 @@ void setup()
   //
 }//End setup
 //
-void draw() {
+void draw()
+{
+  rect(xRectStart, yRectStart, rectWidth, rectHeight);
 }//End draw
 //
 void keyPressed() {
