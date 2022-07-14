@@ -1,0 +1,10 @@
+
+Introduce Print & Println in Static
+
+Introduce Dynamic
+
+Introduce 2 problems with CANVAS
+
+Fix CANVAS display
+
+Fix orientation display, similar to images
