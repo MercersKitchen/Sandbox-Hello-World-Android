@@ -6,8 +6,10 @@ void setup()
   size (300, 300); //Square Orientation
   //
   //Population: Variables equal numbers
-  xRectStart = ;
-  yRectStart = ;
+  float xCenter = width/2;
+  float yCenter = height/2
+  xRectStart = xCenter - width*1/4;
+  yRectStart = yCenter - height*1/4;
   rectWidth = ;
   rectHeight = ;
   //
@@ -15,6 +17,7 @@ void setup()
 //
 void draw()
 {
+  //Rect is in the CENTER of the CANVAS
   rect(xRectStart, yRectStart, rectWidth, rectHeight);
 }//End draw
 //
