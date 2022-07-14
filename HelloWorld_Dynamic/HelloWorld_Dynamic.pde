@@ -14,7 +14,7 @@ void setup()
   //Canvas Setup
   //Display Orientiation must be decided before coding
   //fullScreen();
-  size(300, 200); //Display Geometry: Landscape, Portrait, Square
+  size(200, 300); //Display Geometry: Landscape, Portrait, Square
   //Able to swap key variables to test rest of app
   appWidth = width; //displayWidth
   appHeight = height; //displayHeight
@@ -47,10 +47,8 @@ void draw()
   //
 }//End draw
 //
-void keyPressed() {
-}//End keyPressed
+void keyPressed() {}//End keyPressed
 //
-void mousePressed() {
-}//End mousePressed
+void mousePressed() {}//End mousePressed
 //
 //End MAIN Program
